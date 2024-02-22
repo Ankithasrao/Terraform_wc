@@ -10,11 +10,12 @@ PUBLIC_KEY_PATH ADD FULL PATH IN VARIABLES.TF->
 5. Use aws configure to configure the access keys  [ aws configure command ]
 6. Create a S3 bucket and add the name in config.tf
 7. Define variables.tf and config.tf files.
-8. Create Key pair ->    ssh-keygen -f oregon-region-key-pair 
-9. Run - terraform init
-10. terraform plan -out "file.plan"
-11. terraform apply 
-12. terraform destroy
-13. Define other necessary files. 
+8. Create a S3 bucket and add the name in config.tf file in code
+9. Create Key pair ->    ssh-keygen -f oregon-region-key-pair 
+10. Run - terraform init
+11. terraform plan -out "file.plan"
+12. terraform apply 
+13. terraform destroy
+14. Define other necessary files. 
 
 
